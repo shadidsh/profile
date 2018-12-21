@@ -2,6 +2,14 @@
     background-color: rgb(88, 84, 84);
     overflow: hidden;
     text-align: center;
+    position: fixed; 
+    width: 80%;
+    top: 0;
+    /*z-index: 99; */
+    
+    vertical-align: middle;
+    padding: 80px 10px;
+    transition: 0.3s;
   }
   
 .topnav a {
@@ -10,7 +18,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    
+    font-size: 18px;
 }
   
 .topnav a:hover {
@@ -21,4 +30,13 @@
 .topnav a.active {
     background-color: rgb(34, 141, 190);
     color: white;
-  }
+}
+.topnav #name {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.topnav #contact {
+    float: right;
+}
