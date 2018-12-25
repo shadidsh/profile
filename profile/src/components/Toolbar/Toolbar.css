@@ -3,7 +3,6 @@
     overflow: hidden;
     position: fixed; 
     width: 90%;
-    margin-right: -50%;
     z-index: 9; 
     
     vertical-align:middle;
@@ -38,17 +37,13 @@
     transition: 0.1s;
 }
 
-.topnav #contact {
-    float: right;
+.name {
+    padding: 100px 10px 10px;
+    margin-bottom: 30px;
 }
 
-
-.skills {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    font-size: 18px;
-    
-    padding-top: 100px;
+.topnav #contact {
+    float: right;
 }
 
 .Work {
@@ -58,10 +53,3 @@
     padding-top: 100px;
 }
 
-.skills a {
-    float: center;
-    color: #000000;
-    text-align: center;
-    
-    font-size: 43px;
-}

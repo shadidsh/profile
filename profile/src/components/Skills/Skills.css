@@ -1,0 +1,28 @@
+ 
+.skills {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    font-size: 1rem;
+    font-weight: 440;
+
+    padding: 20px;
+}
+
+.skills a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.work-fc {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline ;
+    align-content: space-between;
+}
+
+.wrk-exp {
+    width: 50%;
+}
